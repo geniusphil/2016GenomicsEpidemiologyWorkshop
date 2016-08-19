@@ -1,2 +1,4 @@
-# 2016GenomicEpidemiologyWorkshop
-2015 Genomic Epidemiology Workshop
+# 2016Genomic Epidemiology Workshop
+## NGS Variance Analysis: Hands-on session
+
+* Raw data
