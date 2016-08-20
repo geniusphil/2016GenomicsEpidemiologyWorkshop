@@ -2,6 +2,7 @@
 ## NGS Variance Analysis: Hands-on session
 
 * Raw data
+  * ```demo_sample.vcf.gz (Ogden Syndrome)```
 
 
 ### Download Annovar db
