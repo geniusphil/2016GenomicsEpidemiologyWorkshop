@@ -209,4 +209,5 @@ NOTICE: Multianno output file is written to demo_sample.hg19_multianno.txt
   * [OMIM - Ogden Syndrome](http://www.omim.org/entry/300855)
 
 
-* For 2016 Genomic Epidemiology Workshop Use
+* All Information 2016 Genomic Epidemiology Workshop Use
+* Edit by [Philippe](http://github.com/geniusphil)
