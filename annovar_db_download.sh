@@ -1,10 +1,10 @@
 # Date: 20160823
 # Annovar database download
-----------------------------
+#---------------------------
 
 # Creat humandb folder
 if [ -d ~/humandb ]; then
-        echo 'humandb file exist'
+        echo 'humandb folder exist!!'
 else mkdir ~/humandb;
         echo 'Create humandb folder done!'
 fi

@@ -51,6 +51,7 @@ $ table_annovar.pl demo_sample.avinput /usr/src/annovar/humandb/ -buildver hg19 
   * 1000g2015aug_amr
   * 1000g2015aug_eur
   * 1000g2015aug_eas
+  * 1000g2015aug_sas
   * nci60
   * cosmic70
   * clinvar_20160302
