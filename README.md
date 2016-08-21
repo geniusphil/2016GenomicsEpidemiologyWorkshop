@@ -197,3 +197,6 @@ NOTICE: Scanning filter database /usr/src/annovar/humandb/hg19_ljb26_all.txt...D
 -----------------------------------------------------------------
 NOTICE: Multianno output file is written to demo_sample.hg19_multianno.txt
 ```
+
+
+* For 2016 Genomic Epidemiology Workshop Use
