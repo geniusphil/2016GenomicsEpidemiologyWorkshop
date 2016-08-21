@@ -7,13 +7,22 @@
 * Raw data
   * demo_sample.vcf.gz (Ogden Syndrome)
 
+* Result data
+  * demo_sample.hg19_multianno.csv
+  * demo_sample.hg19_multianno.txt
+  * demo_sample.hg19_multianno.xlsx
+
 
 ### Download Annovar db
-`$ ./annovar_db_download.sh`
+```
+$ ./annovar_db_download.sh
+```
 
 ### VCF to Annovar input format
 
-`$ convert2annovar.pl -format vcf4 demo_sample.vcf.gz > demo_sample.avinput `
+```
+$ convert2annovar.pl -format vcf4 demo_sample.vcf.gz > demo_sample.avinput
+```
 
 ```
 * NOTICE: Finished reading 1479 lines from VCF file
@@ -163,5 +172,5 @@ NOTICE: Processing next batch with 1479 unique variants in 1479 input lines
 NOTICE: Database index loaded. Total number of bins is 557362 and the number of bins to be scanned is 448
 NOTICE: Scanning filter database /usr/src/annovar/humandb/hg19_ljb26_all.txt...Done
 -----------------------------------------------------------------
-NOTICE: Multianno output file is written to demo_sample.hg19_multianno.txt 
+NOTICE: Multianno output file is written to demo_sample.hg19_multianno.txt
 ```
