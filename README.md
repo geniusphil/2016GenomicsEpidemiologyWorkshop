@@ -198,5 +198,15 @@ NOTICE: Scanning filter database /usr/src/annovar/humandb/hg19_ljb26_all.txt...D
 NOTICE: Multianno output file is written to demo_sample.hg19_multianno.txt
 ```
 
+* Reference by:
+  * [ANNOVAR](http://annovar.openbioinformatics.org/en/latest/)
+  * [Using VAAST to Identify an X-Linked Disorder Resulting in Lethality in Male Infants Due to N-Terminal Acetyltransferase Deficiency](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3135802/)
+  * [ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/20601685)
+  * [Genomic variant annotation and prioritization with ANNOVAR and wANNOVAR](http://www.nature.com/nprot/journal/v10/n10/full/nprot.2015.105.html)
+  * [NAA10 / rs387906701](http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs387906701)
+  * [SNPedia](http://snpedia.com/index.php/Rs387906701)
+  * [NAA10 mutation causing a novel intellectual disability syndrome with Long QT due to N-terminal acetyltransferase impairment](http://www.nature.com/articles/srep16022)
+  * [OMIM - Ogden Syndrome](http://www.omim.org/entry/300855)
+
 
 * For 2016 Genomic Epidemiology Workshop Use
