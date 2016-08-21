@@ -9,25 +9,22 @@
 
 
 ### Download Annovar db
-```$ ./annovar_db_download.sh
-```
+``` $ ./annovar_db_download.sh ```
 
 ### VCF to Annovar input format
 
-```
-$ convert2annovar.pl -format vcf4 demo_sample.vcf.gz > demo_sample.avinput
-```
+``` $ convert2annovar.pl -format vcf4 demo_sample.vcf.gz > demo_sample.avinput ```
+
 * NOTICE: Finished reading 1479 lines from VCF file
 * NOTICE: A total of 1479 locus in VCF file passed QC threshold, representing 1318 SNPs (892 transitions and 426 transversions) and 161 indels/substitutions
 * NOTICE: Finished writing 1318 SNP genotypes (892 transitions and 426 transversions) and 161 indels/substitutions for 1 sample
 
 
 ### Run Annovar table function
-```
-$ table_annovar.pl demo_sample.avinput /usr/src/annovar/humandb/ -buildver hg19 -out demo_sample -remove -protocol refGene,ensGene,cytoBand,genomicSuperDups,avsnp147,esp6500siv2_all,1000g2015aug_all,1000g2015aug_afr,1000g2015aug_amr,1000g2015aug_eur,1000g2015aug_eas,1000g2015aug_sas,nci60,cosmic70,clinvar_20160302,ljb26_all -operation g,g,r,r,f,f,f,f,f,f,f,f,f,f,f,f -otherinfo -nastring NA
-```
 
-``` Information
+``` $ table_annovar.pl demo_sample.avinput /usr/src/annovar/humandb/ -buildver hg19 -out demo_sample -remove -protocol refGene,ensGene,cytoBand,genomicSuperDups,avsnp147,esp6500siv2_all,1000g2015aug_all,1000g2015aug_afr,1000g2015aug_amr,1000g2015aug_eur,1000g2015aug_eas,1000g2015aug_sas,nci60,cosmic70,clinvar_20160302,ljb26_all -operation g,g,r,r,f,f,f,f,f,f,f,f,f,f,f,f -otherinfo -nastring NA ```
+
+### Information
 NOTICE: Processing operation=g protocol=refGene
 
 NOTICE: Running with system command <annotate_variation.pl -geneanno -buildver hg19 -dbtype refGene -outfile demo_sample.refGene -exonsort demo_sample.avinput /usr/src/annovar/humandb/>
@@ -164,4 +161,3 @@ NOTICE: Database index loaded. Total number of bins is 557362 and the number of 
 NOTICE: Scanning filter database /usr/src/annovar/humandb/hg19_ljb26_all.txt...Done
 -----------------------------------------------------------------
 NOTICE: Multianno output file is written to demo_sample.hg19_multianno.csv
-```
