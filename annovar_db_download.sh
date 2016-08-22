@@ -24,6 +24,20 @@ annotate_variation.pl -buildver hg19 -downdb cytoBand ~/humandb/
 annotate_variation.pl -buildver hg19 -downdb genomicSuperDups ~/humandb/
 # UCSC phastConsElements46way
 annotate_variation.pl -buildver hg19 -downdb phastConsElements46way ~/humandb/
+# Transcription factor binding site
+# CSC provides the tfbsConsSites annotation database
+annotate_variation.pl -build hg19 -downdb tfbsConsSites ~/humandb
+# Identify variants reported in previously published GWAS
+# UCSC provides the gwasCatalog annotation database
+annotate_variation.pl -build hg19 -downdb gwasCatalog ~/humandb
+# Identify variants disrupting microRNAs and snoRNAs
+# UCSC offers the wgRna table for snoRNA and microRNAs, based on the miRBase Release and snoRNABase.
+annotate_variation.pl -build hg19 -downdb wgRna ~/humandb
+# Identify variants disrupting predicted microRNA binding sites
+# UCSC provides the TargetScanS annotation database
+annotate_variation.pl -build hg19 -downdb targetScanS ~/humandb
+
+
 
 ## Filter-based ##
 # 1000 Genome
