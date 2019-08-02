@@ -1,4 +1,4 @@
-# 2016Genomic Epidemiology Workshop
+# 2016Genomics Epidemiology Workshop
 ## NGS Variance Analysis: Hands-on session
 
 * Software download
